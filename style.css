@@ -165,22 +165,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-1 h1{
-	font-family: Nunito;
-	font-weight: 600;
-	font-size: 55px;
-}
-#bloc-1 h4{
-	font-family: Nunito;
-	font-weight: 400;
-	font-size: 26px;
-}
-#bloc-1 p{
-	font-weight: 600;
-	font-family: Helvetica;
-	font-size: 18px;
-	line-height: 24px;
-}
 #bloc-2 h1{
 	font-family: Nunito;
 	font-weight: 600;
@@ -197,67 +181,69 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-4 h3{
+#bloc-3 h1{
+	font-family: Nunito;
+	font-weight: 600;
+	font-size: 55px;
+}
+#bloc-3 h4{
+	font-family: Nunito;
+	font-weight: 400;
+	font-size: 26px;
+}
+#bloc-3 p{
+	font-weight: 600;
+	font-family: Helvetica;
+	font-size: 18px;
+	line-height: 24px;
+}
+#bloc-5 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-5 h2{
+#bloc-6 h2{
 	font-family: Nunito;
 	font-weight: 200;
 	font-size: 44px;
 }
-#bloc-5 h3{
+#bloc-6 h3{
 	font-family: Nunito;
 	font-weight: 600;
 	font-size: 32px;
 }
-#bloc-5 p{
+#bloc-6 p{
 	font-size: 16px;
 	line-height: 27px;
 }
-#bloc-6 h3{
+#bloc-7 h3{
 	font-family: Nunito;
 	font-weight: 200;
 	font-size: 40px;
 }
-#bloc-9 h3{
+#bloc-10 h3{
 	font-family: Nunito;
 	font-weight: 200;
 	font-size: 40px;
 }
-#bloc-9 p{
+#bloc-10 p{
 	font-size: 20px;
 	line-height: 30px;
 }
-#bloc-10 h2{
+#bloc-11 h2{
 	font-family: Nunito;
 	font-weight: 200;
 	font-size: 40px;
 	line-height: 44px;
 }
-#bloc-10 h3{
+#bloc-11 h3{
 	font-family: Nunito;
 	font-weight: 600;
 	font-size: 22px;
 	line-height: 1.8em;
 }
-#bloc-10 p{
+#bloc-11 p{
 	font-size: 14px;
 	line-height: 1.8em;
-}
-#bloc-11 h2{
-	font-family: Nunito;
-	font-weight: 300;
-	font-size: 40px;
-	line-height: 44px;
-}
-#bloc-11 p{
-	font-size: 16px;
-}
-#bloc-11 h3{
-	font-family: Nunito;
-	font-weight: 300;
-	font-size: 27px;
 }
 #bloc-12 h2{
 	font-family: Nunito;
@@ -266,21 +252,27 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	line-height: 44px;
 }
 #bloc-12 p{
+	font-size: 16px;
+}
+#bloc-12 h3{
+	font-family: Nunito;
+	font-weight: 300;
+	font-size: 27px;
+}
+#bloc-13 h2{
+	font-family: Nunito;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 44px;
+}
+#bloc-13 p{
 	font-size: 18px;
 }
-#bloc-14 h2{
+#bloc-15 h2{
 	font-family: Nunito;
 	font-weight: 200;
 	font-size: 40px;
 	line-height: 44px;
-}
-#bloc-15 h3{
-	font-family: Nunito;
-	font-weight: 600;
-	font-size: 40px;
-}
-#bloc-15 p{
-	font-size: 18px;
 }
 #bloc-16 h3{
 	font-family: Nunito;
@@ -292,31 +284,41 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-17 h3{
 	font-family: Nunito;
-	font-weight: 300;
+	font-weight: 600;
 	font-size: 40px;
 }
 #bloc-17 p{
 	font-size: 18px;
 }
+#bloc-18 h3{
+	font-family: Nunito;
+	font-weight: 300;
+	font-size: 40px;
+}
 #bloc-18 p{
 	font-size: 18px;
 }
-#bloc-19 h3{
-	font-family: Nunito;
-	font-weight: 400;
+#bloc-19 p{
+	font-size: 18px;
 }
 #bloc-20 h3{
 	font-family: Nunito;
+	font-weight: 400;
+}
+#bloc-21 h3{
+	font-family: Nunito;
 	font-weight: 600;
 }
-#bloc-24 h3{
+#bloc-25 h3{
 	font-size: 40px;
 }
-#bloc-24 p{
+#bloc-25 p{
 	font-size: 18px;
 }
-#bloc-28 p{
-	font-size: 18px;
+#bloc-29 p{
+	font-size: 40px;
+	font-family: Nunito;
+	font-weight: 400;
 }
 #bloc-37 p{
 	font-size: 22px;
@@ -686,6 +688,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .patent-img{
 	max-height:400px;
+}
+.quotes-1{
+	font-size:18px;
 }
 
 /* = Colour

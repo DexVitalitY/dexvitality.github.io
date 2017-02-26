@@ -5,10 +5,10 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-    <link rel="shortcut icon" type="image/png" href="favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css"><link rel="stylesheet" href="./css/font-awesome.min.css"><link rel="stylesheet" href="./css/feather.min.css"><link rel="stylesheet" href="./css/ionicons.min.css"><link href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css"><link rel="stylesheet" href="./css/font-awesome.min.css"><link rel="stylesheet" href="./css/feather.min.css"><link href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
@@ -30,7 +30,7 @@
 	<div class="container b-divider">
 		<nav class="navbar nav-invert row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/AppIcon.png" alt="logo" /></a>
+				<a class="navbar-brand" href="http://staysorted.com/"><img src="img/AppIcon.png" alt="logo" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -38,13 +38,16 @@
 			<div class="collapse navbar-collapse navbar-1">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Sorted</a>
+						<a href="http://staysorted.com/" id="pl-undefined">Sorted</a>
 					</li>
 					<li>
-						<a id="pl-undefined" target="_blank">Press Kit</a>
+						<a href="https://medium.com/@StaySorted/sorted-the-todo-app-that-keeps-up-with-you-ios-media-kit-243c7539d6c9#.ixosjynaq" id="pl-undefined" target="_blank">Press Kit</a>
 					</li>
 					<li>
 						<a href="faq.html">FAQ</a>
+					</li>
+					<li>
+						<a id="pl-undefined">macOS beta Sign Up</a>
 					</li>
 					<li>
 						<div class="dropdown">
@@ -60,10 +63,13 @@
 									<a href="share-extension.html">Share Extension</a>
 								</li>
 								<li>
-									<a href="3d-touch-shortcuts.html">3D Touch Support</a>
+									<a href="3d-touch-support.html">3D Touch Support</a>
 								</li>
 							</ul>
 						</div>
+					</li>
+					<li>
+						<a href="https://itunes.apple.com/app/apple-store/id1022256487?pt=2028806&amp;ct=SortedWebsite&amp;mt=8" target="_blank">Download</a>
 					</li>
 				</ul>
 			</div>
@@ -72,8 +78,8 @@
 </div>
 <!-- bloc-0 END -->
 
-<!-- bloc-20 -->
-<div class="bloc bgc-ghost-white tc-charcoal" id="bloc-20">
+<!-- bloc-21 -->
+<div class="bloc bgc-ghost-white tc-charcoal" id="bloc-21">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
@@ -83,6 +89,9 @@
 				<p class="page-body-text">
 					Share Extension allows for text (max 200 characters) or URLs be shared over to Sorted. <br>To access this click on the share icon and select Sorted. <br> <br><br>
 				</p><img src="img/Share%20Menu%20Sorted%20Center.png" class="center-block img-responsive share-extension-img" />
+				<p class="text-center">
+					Click on the Share Icon and Select Sorted
+				</p>
 				<p class="page-body-text">
 					<br><br>The Sorted share menu will be shown. The content can be shared to a specific list or a reminder time can be applied to the content and it will be shown on the schedule.&nbsp;
 				</p>
@@ -90,29 +99,20 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-20 END -->
+<!-- bloc-21 END -->
 
 <!-- Bloc Group -->
 <div class='bloc-group'>
 
-<!-- bloc-21 -->
-<div class="bloc bloc-tile-3 share-extension-padding bgc-ghost-white l-bloc" id="bloc-21">
+<!-- bloc-22 -->
+<div class="bloc bloc-tile-3 share-extension-padding bgc-ghost-white tc-charcoal" id="bloc-22">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
 				<img src="img/Share%20Sorted%20Menu%20in%20App.png" class="img-responsive share-extension-img center-block" />
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-21 END -->
-
-<!-- bloc-22 -->
-<div class="bloc bloc-tile-3 bgc-ghost-white l-bloc share-extension-padding" id="bloc-22">
-	<div class="container bloc-md">
-		<div class="row">
-			<div class="col-sm-12">
-				<img src="img/Share%20Menu%20Text.png" class="img-responsive share-extension-img center-block" />
+				<p class="text-center">
+					Share a URL into Sorted
+				</p>
 			</div>
 		</div>
 	</div>
@@ -120,16 +120,34 @@
 <!-- bloc-22 END -->
 
 <!-- bloc-23 -->
-<div class="bloc bloc-tile-3 share-extension-padding bgc-ghost-white l-bloc" id="bloc-23">
+<div class="bloc bloc-tile-3 bgc-ghost-white share-extension-padding tc-charcoal" id="bloc-23">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/Share%20Reminder%20Time.png" class="img-responsive share-extension-img center-block" />
+				<img src="img/Share%20Menu%20Text.png" class="img-responsive share-extension-img center-block" />
+				<p class="text-center">
+					Share Text up to 200 Characters Into Sorted
+				</p>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-23 END -->
+
+<!-- bloc-24 -->
+<div class="bloc bloc-tile-3 share-extension-padding bgc-ghost-white tc-charcoal" id="bloc-24">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-12">
+				<img src="img/Share%20Reminder%20Time.png" class="img-responsive share-extension-img center-block" />
+				<p class="text-center">
+					Add a Reminder Time to Content
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-24 END -->
 </div>
 <!-- Bloc Group END -->
 
@@ -173,12 +191,12 @@
 			</div>
 			<div class="col-sm-3">
 				<h3 class="mg-md bloc-mob-center-text ">
-					<a class="page-body-text" href="contact-us.html">Contact Us</a><br>
+					<a class="page-body-text" href="contact.html">Contact Us</a><br>
 				</h3>
 			</div>
 			<div class="col-sm-3">
 				<h3 class="mg-md bloc-mob-center-text ">
-					<a class="page-body-text" href="index.html">Patent</a><br>
+					<a class="page-body-text" href="patent.html">Patent</a><br>
 				</h3>
 			</div>
 			<div class="col-sm-3">
@@ -197,7 +215,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-8 col-md-offset-2">
 				<h3 class="statement-bloc-text ">
-					© StaySorted Inc. - 2016&nbsp;
+					© StaySorted Inc. - 2017
 				</h3>
 			</div>
 		</div>
