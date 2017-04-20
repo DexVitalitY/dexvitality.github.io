@@ -20,15 +20,16 @@
 	<script type="text/javascript">
 		
 	$.ajax({
-	    url: '//freegeoip.net/json/',
-	    type: 'POST',
+	    url: 'https://freegeoip.net/json/',
+	    type: 'GET',
 	    crossDomain: true,
 	    xhrFields: {
 	    	withCredentials: true
 	    },
-	    success: function(location) {
-	        switch(location.country_code) {
+	    success: function(r) {
+	        switch(r.country_code) {
 	            case 'CN':
+	            	console.log('Location is in China')
 	                window.location.href = 'https://dexvitality.github.io/CN';
 	                break;
 	            // add additional cases for other countries
